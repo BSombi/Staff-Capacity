@@ -1,0 +1,225 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "field:event_name",
+ "creation": "2023-10-09 13:11:39.037755",
+ "default_view": "List",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "event_details_tab",
+  "event_name",
+  "training_program",
+  "event_status",
+  "has_certificate",
+  "column_break_bpkp",
+  "type",
+  "level",
+  "company",
+  "trainer_details_tab",
+  "trainer_name",
+  "trainer_email",
+  "column_break_ajjx",
+  "amended_from",
+  "supplier",
+  "contact_number",
+  "course_details_tab",
+  "course",
+  "location",
+  "column_break_qkqt",
+  "start_time",
+  "end_time",
+  "training_introduction_tab",
+  "introduction",
+  "attendees_tab",
+  "employees",
+  "employee_emails"
+ ],
+ "fields": [
+  {
+   "fieldname": "event_details_tab",
+   "fieldtype": "Tab Break",
+   "label": "Event Details"
+  },
+  {
+   "fieldname": "event_name",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": " Event Name",
+   "reqd": 1,
+   "unique": 1
+  },
+  {
+   "fieldname": "training_program",
+   "fieldtype": "Link",
+   "label": " Training Program",
+   "options": "Training Program"
+  },
+  {
+   "fieldname": "event_status",
+   "fieldtype": "Select",
+   "label": " Event Status",
+   "options": "\nScheduled\nCompleted\nCancelled"
+  },
+  {
+   "default": "0",
+   "fieldname": "has_certificate",
+   "fieldtype": "Check",
+   "label": " Has Certificate"
+  },
+  {
+   "fieldname": "column_break_bpkp",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "type",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": " Type",
+   "options": "\nSeminar\nTheory\nWorkshop\nConference\nExam\nInternet\nSelf-Study",
+   "reqd": 1
+  },
+  {
+   "fieldname": "level",
+   "fieldtype": "Select",
+   "label": " Level",
+   "options": "\nBeginner\nIntermediate\nAdvance"
+  },
+  {
+   "fieldname": "company",
+   "fieldtype": "Link",
+   "label": " Company",
+   "options": "Company"
+  },
+  {
+   "fieldname": "trainer_details_tab",
+   "fieldtype": "Tab Break",
+   "label": "Trainer Details"
+  },
+  {
+   "fieldname": "trainer_name",
+   "fieldtype": "Data",
+   "label": " Trainer Name"
+  },
+  {
+   "fieldname": "trainer_email",
+   "fieldtype": "Data",
+   "label": " Trainer Email"
+  },
+  {
+   "fieldname": "column_break_ajjx",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "amended_from",
+   "fieldtype": "Link",
+   "label": "Amended From",
+   "no_copy": 1,
+   "options": "Training Event",
+   "print_hide": 1,
+   "read_only": 1
+  },
+  {
+   "fieldname": "supplier",
+   "fieldtype": "Link",
+   "label": " Supplier",
+   "options": "Supplier"
+  },
+  {
+   "fieldname": "contact_number",
+   "fieldtype": "Data",
+   "label": "Contact Number"
+  },
+  {
+   "fieldname": "course_details_tab",
+   "fieldtype": "Tab Break",
+   "label": "Course Details"
+  },
+  {
+   "fieldname": "course",
+   "fieldtype": "Data",
+   "label": " Course"
+  },
+  {
+   "fieldname": "column_break_qkqt",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "location",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": " Location",
+   "reqd": 1
+  },
+  {
+   "fieldname": "start_time",
+   "fieldtype": "Datetime",
+   "in_list_view": 1,
+   "label": " Start Time",
+   "reqd": 1
+  },
+  {
+   "fieldname": "end_time",
+   "fieldtype": "Datetime",
+   "label": " End Time",
+   "reqd": 1
+  },
+  {
+   "fieldname": "training_introduction_tab",
+   "fieldtype": "Tab Break",
+   "label": "Training Introduction"
+  },
+  {
+   "fieldname": "introduction",
+   "fieldtype": "Text Editor",
+   "label": "Introduction",
+   "reqd": 1
+  },
+  {
+   "fieldname": "attendees_tab",
+   "fieldtype": "Tab Break",
+   "label": " Attendees"
+  },
+  {
+   "fieldname": "employees",
+   "fieldtype": "Table",
+   "label": " Employees",
+   "options": "Training Event Employee"
+  },
+  {
+   "fieldname": "employee_emails",
+   "fieldtype": "Small Text",
+   "label": " Employee Emails",
+   "options": "Email"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "is_submittable": 1,
+ "links": [],
+ "modified": "2023-10-09 17:44:55.579084",
+ "modified_by": "Administrator",
+ "module": "Staff Capacity",
+ "name": "Training Event",
+ "naming_rule": "By fieldname",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "show_title_field_in_link": 1,
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": [],
+ "title_field": "event_name"
+}

@@ -1,0 +1,61 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2023-10-06 13:27:55.727555",
+ "default_view": "List",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "analysis_skills",
+  "proof_reading_skills",
+  "filing_skills",
+  "math_skills",
+  "checking_skills",
+  "clerical_overal_score"
+ ],
+ "fields": [
+  {
+   "fieldname": "analysis_skills",
+   "fieldtype": "Float",
+   "label": "Analysis Skills"
+  },
+  {
+   "fieldname": "proof_reading_skills",
+   "fieldtype": "Float",
+   "label": "Proof Reading Skills"
+  },
+  {
+   "fieldname": "filing_skills",
+   "fieldtype": "Float",
+   "label": "Filing Skills"
+  },
+  {
+   "fieldname": "math_skills",
+   "fieldtype": "Float",
+   "label": "Math Skills"
+  },
+  {
+   "fieldname": "checking_skills",
+   "fieldtype": "Float",
+   "label": "Checking Skills"
+  },
+  {
+   "fieldname": "clerical_overal_score",
+   "fieldtype": "Float",
+   "label": "Overal Score"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2023-10-07 16:09:22.778941",
+ "modified_by": "Administrator",
+ "module": "Staff Capacity",
+ "name": "Employee Clerical Skills",
+ "owner": "Administrator",
+ "permissions": [],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

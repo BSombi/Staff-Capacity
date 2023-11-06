@@ -1,0 +1,410 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "format:EMP-PSY-{YYYY}-{#####}",
+ "creation": "2023-10-06 11:55:10.393974",
+ "default_view": "List",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "employee_details_tab",
+  "employee",
+  "employee_name",
+  "employee_grade",
+  "column_break_retj",
+  "department",
+  "job_title",
+  "employee_norm_group",
+  "cognitive_abilities_tab",
+  "verbal_reasoning",
+  "numerical_reasoning",
+  "abstract_reasoning",
+  "column_break_psat",
+  "mechanical_reasoning",
+  "space_relations",
+  "logic_and_reasoning",
+  "general_mental_ability",
+  "critical_thinking_tab",
+  "analysis_skills",
+  "proof_reading_skills",
+  "filing_skills",
+  "column_break_tugf",
+  "math_skills",
+  "checking_skills",
+  "clerical_overal_score",
+  "clerical_skills_tab",
+  "critical_thinking_1",
+  "critical_thinking_2",
+  "critical_thinking_3",
+  "column_break_uajf",
+  "critical_thinking_4",
+  "critical_thinking_5",
+  "critical_thinking_score",
+  "tab_5_tab",
+  "decisiveness",
+  "ability_to_prioritise",
+  "administrative_skills",
+  "column_break_cqtm",
+  "delegation",
+  "management_of_surbodinates",
+  "reasoned_judgement",
+  "inbasket_score",
+  "assessment_centres_tab",
+  "communication",
+  "planninng_and_organising",
+  "leadership",
+  "column_break_nzvl",
+  "decision_making_and_judgemet",
+  "teamwork",
+  "assessment_centres_score",
+  "personality_assessment_tab",
+  "service_orientation",
+  "conscientiousness",
+  "intellect",
+  "ambition",
+  "column_break_qebx",
+  "extroversion",
+  "openness",
+  "adjustment",
+  "deception",
+  "personality_score"
+ ],
+ "fields": [
+  {
+   "fieldname": "employee",
+   "fieldtype": "Link",
+   "label": "For Employee",
+   "options": "Employee"
+  },
+  {
+   "fieldname": "employee_name",
+   "fieldtype": "Data",
+   "label": "Employee Name"
+  },
+  {
+   "fieldname": "department",
+   "fieldtype": "Link",
+   "label": "Department",
+   "options": "Department"
+  },
+  {
+   "fieldname": "job_title",
+   "fieldtype": "Link",
+   "label": "Job Title",
+   "options": "Job Title"
+  },
+  {
+   "fieldname": "employee_grade",
+   "fieldtype": "Link",
+   "label": "Employee Grade",
+   "options": "Employee Grade"
+  },
+  {
+   "fieldname": "employee_details_tab",
+   "fieldtype": "Tab Break",
+   "label": "Employee Details"
+  },
+  {
+   "fieldname": "column_break_retj",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "employee_norm_group",
+   "fieldtype": "Select",
+   "label": "Norm Group",
+   "options": "\nNon-Managerial\nProfessionals\nJunior/Middle Management\nSenior Management/Executive"
+  },
+  {
+   "fieldname": "cognitive_abilities_tab",
+   "fieldtype": "Tab Break",
+   "label": "Cognitive Abilities"
+  },
+  {
+   "fieldname": "clerical_skills_tab",
+   "fieldtype": "Tab Break",
+   "label": "Critical Thinking"
+  },
+  {
+   "fieldname": "critical_thinking_tab",
+   "fieldtype": "Tab Break",
+   "label": "Clerical Skills"
+  },
+  {
+   "fieldname": "tab_5_tab",
+   "fieldtype": "Tab Break",
+   "label": "In-basket Exercises"
+  },
+  {
+   "fieldname": "assessment_centres_tab",
+   "fieldtype": "Tab Break",
+   "label": "Assessment Centres"
+  },
+  {
+   "fieldname": "personality_assessment_tab",
+   "fieldtype": "Tab Break",
+   "label": "Personality"
+  },
+  {
+   "fieldname": "verbal_reasoning",
+   "fieldtype": "Float",
+   "label": "Verbal Reasoning"
+  },
+  {
+   "fieldname": "numerical_reasoning",
+   "fieldtype": "Float",
+   "label": "Numerical Reasoning"
+  },
+  {
+   "fieldname": "abstract_reasoning",
+   "fieldtype": "Float",
+   "label": "Abstract Reasoning"
+  },
+  {
+   "fieldname": "mechanical_reasoning",
+   "fieldtype": "Float",
+   "label": "Mechanical Reasoning"
+  },
+  {
+   "fieldname": "space_relations",
+   "fieldtype": "Float",
+   "label": "Space Relations"
+  },
+  {
+   "fieldname": "logic_and_reasoning",
+   "fieldtype": "Float",
+   "label": "Logic and Reasoning"
+  },
+  {
+   "fieldname": "general_mental_ability",
+   "fieldtype": "Float",
+   "label": "General Mental Ability",
+   "read_only": 1
+  },
+  {
+   "fieldname": "column_break_psat",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "critical_thinking_1",
+   "fieldtype": "Float",
+   "label": "Critical Thinking 1"
+  },
+  {
+   "fieldname": "critical_thinking_2",
+   "fieldtype": "Float",
+   "label": "Critical Thinking 2"
+  },
+  {
+   "fieldname": "critical_thinking_3",
+   "fieldtype": "Float",
+   "label": "Critical Thinking 3"
+  },
+  {
+   "fieldname": "critical_thinking_4",
+   "fieldtype": "Float",
+   "label": "Critical Thinking 4"
+  },
+  {
+   "fieldname": "critical_thinking_5",
+   "fieldtype": "Float",
+   "label": "Critical Thinking 5"
+  },
+  {
+   "fieldname": "critical_thinking_score",
+   "fieldtype": "Float",
+   "label": "Critical Thinking Score",
+   "read_only": 1
+  },
+  {
+   "fieldname": "analysis_skills",
+   "fieldtype": "Float",
+   "label": "Analysis Skills"
+  },
+  {
+   "fieldname": "proof_reading_skills",
+   "fieldtype": "Float",
+   "label": "Proof Reading Skills"
+  },
+  {
+   "fieldname": "filing_skills",
+   "fieldtype": "Float",
+   "label": "Filing Skills"
+  },
+  {
+   "fieldname": "column_break_tugf",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "math_skills",
+   "fieldtype": "Float",
+   "label": "Math Skills"
+  },
+  {
+   "fieldname": "checking_skills",
+   "fieldtype": "Float",
+   "label": "Checking Skills"
+  },
+  {
+   "fieldname": "clerical_overal_score",
+   "fieldtype": "Float",
+   "label": "Overal Score",
+   "read_only": 1
+  },
+  {
+   "fieldname": "column_break_uajf",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "decisiveness",
+   "fieldtype": "Float",
+   "label": "Decisiveness"
+  },
+  {
+   "fieldname": "ability_to_prioritise",
+   "fieldtype": "Float",
+   "label": "Ability to Prioritise"
+  },
+  {
+   "fieldname": "administrative_skills",
+   "fieldtype": "Float",
+   "label": "Administrative Skills"
+  },
+  {
+   "fieldname": "delegation",
+   "fieldtype": "Float",
+   "label": "Delegation"
+  },
+  {
+   "fieldname": "management_of_surbodinates",
+   "fieldtype": "Float",
+   "label": "Management of Surbodinates"
+  },
+  {
+   "fieldname": "reasoned_judgement",
+   "fieldtype": "Float",
+   "label": "Reasoned Judgement"
+  },
+  {
+   "fieldname": "inbasket_score",
+   "fieldtype": "Float",
+   "label": "In Basket Score",
+   "read_only": 1
+  },
+  {
+   "fieldname": "column_break_cqtm",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "communication",
+   "fieldtype": "Float",
+   "label": "Communication"
+  },
+  {
+   "fieldname": "planninng_and_organising",
+   "fieldtype": "Float",
+   "label": "Planninng and Organising"
+  },
+  {
+   "fieldname": "leadership",
+   "fieldtype": "Float",
+   "label": "Leadership"
+  },
+  {
+   "fieldname": "decision_making_and_judgemet",
+   "fieldtype": "Float",
+   "label": "Decision Making and Judgemet"
+  },
+  {
+   "fieldname": "teamwork",
+   "fieldtype": "Float",
+   "label": "Teamwork"
+  },
+  {
+   "fieldname": "assessment_centres_score",
+   "fieldtype": "Float",
+   "label": "Assessment Centres Score",
+   "read_only": 1
+  },
+  {
+   "fieldname": "column_break_nzvl",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "service_orientation",
+   "fieldtype": "Float",
+   "label": "Service Orientation"
+  },
+  {
+   "fieldname": "conscientiousness",
+   "fieldtype": "Float",
+   "label": "Conscientiousness"
+  },
+  {
+   "fieldname": "intellect",
+   "fieldtype": "Float",
+   "label": "Intellect"
+  },
+  {
+   "fieldname": "ambition",
+   "fieldtype": "Float",
+   "label": "Ambition"
+  },
+  {
+   "fieldname": "extroversion",
+   "fieldtype": "Float",
+   "label": "Extroversion"
+  },
+  {
+   "fieldname": "openness",
+   "fieldtype": "Float",
+   "label": "Openness"
+  },
+  {
+   "fieldname": "adjustment",
+   "fieldtype": "Float",
+   "label": "Adjustment"
+  },
+  {
+   "fieldname": "deception",
+   "fieldtype": "Float",
+   "label": "Deception"
+  },
+  {
+   "fieldname": "personality_score",
+   "fieldtype": "Float",
+   "label": "Personality Score",
+   "read_only": 1
+  },
+  {
+   "fieldname": "column_break_qebx",
+   "fieldtype": "Column Break"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2023-10-07 23:29:04.991433",
+ "modified_by": "Administrator",
+ "module": "Staff Capacity",
+ "name": "Employee Psychometrics",
+ "naming_rule": "Expression",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": [],
+ "title_field": "employee_name"
+}

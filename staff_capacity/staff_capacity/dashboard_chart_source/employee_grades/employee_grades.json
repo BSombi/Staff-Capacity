@@ -1,0 +1,13 @@
+{
+ "creation": "2023-10-10 16:31:29.186920",
+ "docstatus": 0,
+ "doctype": "Dashboard Chart Source",
+ "idx": 0,
+ "modified": "2023-10-10 16:31:29.186920",
+ "modified_by": "Administrator",
+ "module": "Staff Capacity",
+ "name": "Employee Grades",
+ "owner": "Administrator",
+ "source_name": "Employee Grades",
+ "timeseries": 0
+}

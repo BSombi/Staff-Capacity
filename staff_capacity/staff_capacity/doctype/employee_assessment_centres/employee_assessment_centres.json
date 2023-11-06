@@ -1,0 +1,66 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2023-10-06 13:40:49.739471",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "communication",
+  "planninng_and_organising",
+  "leadership",
+  "decision_making_and_judgemet",
+  "teamwork",
+  "business_acumen",
+  "assessment_centres_score"
+ ],
+ "fields": [
+  {
+   "fieldname": "communication",
+   "fieldtype": "Float",
+   "label": "Communication"
+  },
+  {
+   "fieldname": "planninng_and_organising",
+   "fieldtype": "Float",
+   "label": "Planninng and Organising"
+  },
+  {
+   "fieldname": "leadership",
+   "fieldtype": "Float",
+   "label": "Leadership"
+  },
+  {
+   "fieldname": "decision_making_and_judgemet",
+   "fieldtype": "Float",
+   "label": "Decision Making and Judgemet"
+  },
+  {
+   "fieldname": "teamwork",
+   "fieldtype": "Float",
+   "label": "Teamwork"
+  },
+  {
+   "fieldname": "business_acumen",
+   "fieldtype": "Float",
+   "label": "Business Acumen"
+  },
+  {
+   "fieldname": "assessment_centres_score",
+   "fieldtype": "Float",
+   "label": "Assessment Centres Score"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2023-10-07 16:41:34.390946",
+ "modified_by": "Administrator",
+ "module": "Staff Capacity",
+ "name": "Employee Assessment Centres",
+ "owner": "Administrator",
+ "permissions": [],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

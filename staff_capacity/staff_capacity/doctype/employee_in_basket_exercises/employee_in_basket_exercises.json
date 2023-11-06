@@ -1,0 +1,67 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2023-10-06 13:35:02.657865",
+ "default_view": "List",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "title",
+  "ability_to_prioritise",
+  "administrative_skills",
+  "delegation",
+  "management_of_surbodinates",
+  "reasoned_judgement",
+  "inbasket_score"
+ ],
+ "fields": [
+  {
+   "fieldname": "title",
+   "fieldtype": "Float",
+   "label": "Deciveness"
+  },
+  {
+   "fieldname": "ability_to_prioritise",
+   "fieldtype": "Float",
+   "label": "Ability to Prioritise"
+  },
+  {
+   "fieldname": "administrative_skills",
+   "fieldtype": "Float",
+   "label": "Administrative Skills"
+  },
+  {
+   "fieldname": "delegation",
+   "fieldtype": "Float",
+   "label": "Delegation"
+  },
+  {
+   "fieldname": "management_of_surbodinates",
+   "fieldtype": "Float",
+   "label": "Management of Surbodinates"
+  },
+  {
+   "fieldname": "reasoned_judgement",
+   "fieldtype": "Float",
+   "label": "Reasoned Judgement"
+  },
+  {
+   "fieldname": "inbasket_score",
+   "fieldtype": "Float",
+   "label": "In Basket Score"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2023-10-07 16:37:57.610338",
+ "modified_by": "Administrator",
+ "module": "Staff Capacity",
+ "name": "Employee In-basket Exercises",
+ "owner": "Administrator",
+ "permissions": [],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}
